@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>課題のチャットアプリ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<h2 class="room">firebase-chat-room</h2>
+
+  <body class="wrapper">
+    <table class="tables">
+      <tr class="trs">
+        <th class="thcol">名前：</th>
+        <td><input type="text" id="userName" /></td>
+      </tr>
+      <tr>
+        <th class="thcol">ひとこと：</th>
+        <td><textarea id="text"></textarea></td>
+      </tr>
+    </table>
+    <p>
+      <button id="send" type="button">送信</button>
+      <button id="resetb" type="button">リセット</button>
+    </p>
+    <div id="output"></div>
+
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <script type="module" src="js/script.js"></script>
+  </body>
+
+</html>

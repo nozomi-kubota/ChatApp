@@ -1,0 +1,44 @@
+.room {
+    font-family: cursive;
+    font-size: 3rem;
+    color: #195cd6;
+    text-align: center;
+}
+
+.wrapper {
+    background: linear-gradient(#b5eecb, #548cf4);
+    width: 100%;
+    height:100vh;
+    overflow:scroll;
+    text-align: center;
+}
+
+.tables {
+    display:inline-flex;
+    justify-content: center;
+}
+.thcol {
+    color: #fff;
+    box-sizing: border-box;
+}
+.userName {
+    width: 100px;
+}
+.text {
+    font-size: 16px;
+    border: 10px;
+    height: max-content;
+}
+
+.send {
+    margin-bottom: 1px;
+    text-align: center;
+}
+.resetb{
+    margin: auto;
+}
+.output {
+    display: flex;
+    overflow: auto;
+    border-bottom-width: 10%;
+}
