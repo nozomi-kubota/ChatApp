@@ -13,14 +13,7 @@ import {
  * この部分はGitHubに上げないこと！！！！！！！
  */
 const firebaseConfig = {
-  apiKey: "AIzaSyDU8hsM0VX-xlLrlzYi56OiBFDAjjnEhRM",
-  authDomain: "gsmil07-83480.firebaseapp.com",
-  databaseURL: "https://gsmil07-83480-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "gsmil07-83480",
-  storageBucket: "gsmil07-83480.appspot.com",
-  messagingSenderId: "964837400155",
-  appId: "1:964837400155:web:2329a19d0e284a8fbca97e",
-  measurementId: "G-3M2NJN9RV9"
+
 };
 
 // // Initialize Firebase
